@@ -10,6 +10,6 @@ int? generateRandom() {
 }
 
 void main() {
-  int status = generateRandom() ?? 0; // لو null ترجع 0
+  int status = generateRandom() ?? 0; 
   print(status);
 }
